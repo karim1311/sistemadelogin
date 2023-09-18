@@ -46,6 +46,7 @@ if (!isset($_SESSION["user_data"])) {
 
 
             <label for="photo">PHOTO:</label>
+            <img src=<?php echo $result["photo"] ?> class='border rounded-1' alt='picture' width="72"  height='72' />
             <input type="file" name="photo" id="photo" value="<?php echo $result["photo"] ?>">
 
 
@@ -70,7 +71,7 @@ if (!isset($_SESSION["user_data"])) {
 
             <br>
 
-            <button type="submit">Actualizar</button>
+            <button class="btn btn-primary w-25" type="submit">Save</button>
 
 
 
