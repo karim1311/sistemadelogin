@@ -63,7 +63,7 @@
                 <i class="fa-solid fa-circle-user"></i>
             </p>
 
-            <p class="d-flex justify-content-center gray-text">Don't have an account yet?<a href="/views/login.php">Register</a></p>
+            <p class="d-flex justify-content-center gray-text">Don't have an account yet?<a href="/index.php">Register</a></p>
         </form>
 
     </section>

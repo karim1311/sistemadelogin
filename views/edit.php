@@ -33,6 +33,7 @@ if (!isset($_SESSION["user_data"])) {
     ?>
 
     <h1>Editar informacion:</h1>
+    <a href="/views/dashboard.php">< Back</a>
     <p>Name:</p>
     <div class="input-group mb-3">
         <span class="input-group-text" id="basic-addon1">@</span>
@@ -49,6 +50,10 @@ if (!isset($_SESSION["user_data"])) {
             <img src=<?php echo $result["photo"] ?> class='border rounded-1' alt='picture' width="72"  height='72' />
             <input type="file" name="photo" id="photo" value="<?php echo $result["photo"] ?>">
 
+
+            <br>
+            <label>NAME:</label>
+            <input type="text" name="name" value="<?php echo $result["name"] ?>">
 
             <br>
             <label>Bio:</label>
